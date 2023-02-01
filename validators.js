@@ -20,7 +20,6 @@ function generateExtradata(validators) {
 }
 
 function extraDataSerialize(validators) {
-	console.log(">>>>>", validators);
   let n = validators.length;
   let arr = [];
   for(let i = 0;i<n;i++){
